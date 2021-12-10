@@ -1,6 +1,6 @@
 # AAIS_Interview
 
-Code attached are devloepd to analyze movie dataset
+Code attached are designed to analyze movie dataset
 
 Code built for HIVE database and tested with full dataset.
 
