@@ -135,21 +135,24 @@ LATERAL VIEW EXPLODE(SPLIT(mv_crew,'}, ')) ext as mv_crew_map
 DROP VIEW IF EXISTS movie_analytics.credits_movies_cast_vw;
 
 CREATE VIEW movie_analytics.credits_movies_cast_vw
+AS
 SELECT
 movies_id,
-cast_credit_id,
-cast_department,
-cast_gender, 
-movie_crew_id,
-cast_job,
-cast_name,
-cast_profile_path, 
+cast_id,
+cast_character,
+cast_credit_id, 
+cast_gender,
+movie_cast_id,
+cast_name, 
+cast_order, 
+cast_profile_path,
 load_date
 FROM movie_analytics.credits_movies_cast;
 
 DROP VIEW IF EXISTS movie_analytics.credits_movies_crew_vw;
 
 CREATE VIEW movie_analytics.credits_movies_crew_vw
+AS
 SELECT
 movies_id,
 crew_credit_id,
