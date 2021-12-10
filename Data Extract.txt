@@ -1,0 +1,27 @@
+1. Top 10 Actors 
+
+cast_name       	movies_acted
+ Bess Flowers   		241
+ Christopher Lee        148
+ John Wayne     		125
+ Samuel L. Jackson      123
+ Gérard Depardieu       110
+ Michael Caine 			110
+ Donald Sutherland      109
+ John Carradine 		109
+ Jackie Chan    		108
+ 
+--2. Top 10 Directors 
+
+director_name        movies_acted
+ John Ford      		68
+ Michael Curtiz 		65
+ Werner Herzog  		55
+ Alfred Hitchcock       53
+ Georges Méliès 		51
+ Jean-Luc Godard        50
+ Woody Allen    		49
+ Sidney Lumet   		46
+ Charlie Chaplin        44
+ Raoul Walsh    		43
+ 
